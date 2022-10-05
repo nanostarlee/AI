@@ -26,7 +26,6 @@ The main vectors inside a neural network are the weights and bias vectors. Loose
 Regression is used when you need to estimate the relationship between a dependent variable and two or more independent variables. Linear regression is a method applied when you approximate the relationship between the variables as linear. The method dates back to the nineteenth century and is the most popular regression method.
 `Note:` 
 A linear relationship is one where there’s a direct relationship between an independent variable and a dependent variable.
-
 By modeling the relationship between the variables as linear, you can express the dependent variable as a weighted sum of the independent variables. So, each independent variable will be multiplied by a vector called weight. Besides the weights and the independent variables, you also add another vector: the bias. It sets the result when all the other independent variables are equal to zero.
 As a real-world example of how to build a linear regression model, imagine you want to train a model to predict the price of houses based on the area and how old the house is. You decide to model this relationship using linear regression. 
 The following code block shows how you can write a linear regression model for the stated problem in pseudocode:
